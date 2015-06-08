@@ -1,0 +1,85 @@
+body {
+  background-color: #111;
+  color: #ccc;
+  font-family: Helvetica, serif;
+}
+
+header {
+  text-align: center;
+  background: #333 url(https://download.unsplash.com/photo-1430132594682-16e1185b17c5) center center no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 2.5em 0;
+}
+
+header h3 {
+  font-size: 2em;
+  font-weight: 200;
+  margin-bottom: 0;
+  text-shadow: 3px 3px 3px #000;
+  
+}
+
+header h1 {
+  margin-top: -.1em;
+  font-size: 5em;
+  font-weight: 400;
+  text-shadow: 3px 3px 3px #000;
+}
+
+section {
+  width: 60%;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 1.875em;
+  font-weight: 300;
+  margin-top: 2em;
+}
+
+section p {
+  font-weight: 100;
+  line-height: 2em;
+  margin-bottom: 2em;
+}
+
+section h4 {
+  color: #569;
+  margin-top: 2em;
+  font-weight: 300;
+}
+
+footer {
+  background-color: #444;
+  padding: 2em 0 2em 0;
+}
+
+footer p {
+  text-align: center;
+  color: #000;
+}
+
+a.unsplash {
+  text-decoration: none;
+  color: yellow;
+}
+
+a.unsplash:hover {
+  color: #bb0;
+}
+
+a.email {
+  text-decoration: none;
+  color: #000;
+}
+
+a.email:hover {
+  color: #888;
+}
+
+@media screen and (max-width: 775px) {
+  section {
+    width: 70%;
+  }
+}
